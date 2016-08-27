@@ -3,7 +3,6 @@ from sys import exit
 
 def gold_room():
     print "this room is full of gold. how much do you take?"
-    new_next = []
 
     while True:
         next = raw_input('> ')
