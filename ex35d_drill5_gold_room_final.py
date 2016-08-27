@@ -10,7 +10,7 @@ def gold_room():
         for i in next:
             if not "0" <= i <= "9":
                 gold_room()
-                break
+                #break
             else:
                 new_next.append(i)
 
