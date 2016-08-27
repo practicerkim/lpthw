@@ -10,8 +10,6 @@ def gold_room():
         for i in next:
             if not "0" <= i <= "9":
                 gold_room()
-            else:
-                print i
 
         if int(next) < 50:
             print "nice, you're not greedy, you win!"
