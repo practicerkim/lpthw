@@ -6,7 +6,7 @@ def gold_room():
 
     while True:
         next = raw_input('> ')
-        if not("0" <= next <= "9"):
+        if not("0" <= next <= "9"):     # 1asdfkw 나 1234asdf와 같이 입력하면 오류발발생
             print "man, learn to type a number."
 
         else:
